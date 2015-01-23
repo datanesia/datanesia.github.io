@@ -1,0 +1,8 @@
+	{% capture my_include %}{% include_relative datasets/datasets.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+<br/>
+  <ul class="posts">
+    {% for data in site.categories.datasets %}
+      <li><span>{{ data.date | date_to_string }}</span> &raquo; <a href="{{ data.url }}">{{ data.title }}</a></li>
+    {% endfor %}
+  </ul>

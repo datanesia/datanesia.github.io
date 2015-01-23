@@ -1,0 +1,15 @@
+---
+layout: default
+title: Datanesia
+---
+
+<div id="home">
+	{% capture my_include %}{% include_relative events.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+ <br/>
+  <ul class="posts">
+    {% for event in site.categories.events %}
+      <li><span>{{ event.date | date_to_string }}</span> &raquo; <a href="{{ event.url }}">{{ event.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
