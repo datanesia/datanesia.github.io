@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Datanesia</title>
+   <title>{{ page.title }}</title>
    <meta name="author" content="Datanesia" />
   
    <!-- syntax highlighting CSS -->
@@ -28,73 +28,9 @@
   </div>
   
   
-	  <div class="header">
-  <img src="http://datanesia.org/images/datanesia.png" class="imgHeader" />
-  	  </p>
-        Datanesia.org is a collaborative effort to collect, organize, and provide better access to datasets and data related information in Indonesia. Open, for all.
-        <br/>Started by <a href="http://twitter.com/ramdayz">ramda</a>, <a href="http://twitter.com/okfnid">OKFN Indonesia</a> and  <a href="http://akilnews.wordpress.com">Asia Knowledge and Innovation Lab</a> 
-      	<br/>Maintained by <a href="http://twitter.com/iniandra">andra</a>. Have questions ? Send me an <a href="mailto:me@yuandraismiraldi.net">email</a> 
-      </p>
-  </div>
+	{% include header.html %}
 
-  <div id="home">
-
-  	
-	<h1>Articles</h1>
-
-<ul>
-<li><a href="http://opendatabarometer.org">Open Data Barometer</a> - Open data barometer showing the progress of open data from all over the world including Indonesia</li>
-</ul>
-
-
-<br/>
-  <ul class="posts">
-    
-  </ul>
-
-    
-  <h1>Events</h1>
-
-<ul>
-<li><a href="http://opendataday.org">Open Data Day</a> - International events celebrating the open data movement</li>
-</ul>
-
-
-<br/>
-  <ul class="posts">
-    
-  </ul>
-
-
-  	
-	<h1>Datasets</h1>
-
-<ul>
-<li><a href="http://data.go.id">Indonesia Open Data Portal</a> - Indonesia open data portal</li>
-</ul>
-
-
-<br/>
-  <ul class="posts">
-    
-  </ul>
-
-  
-<h1>Applications</h1>
-
-<ul>
-<li><a href="http://benangmerah-lab.cloudapp.net">Benang Merah</a> - OWL ontology and knowledge base that attempts to reflect the official, current administrative division structure in Indonesia. Developed by <a href="https://twitter.com/phr">Andhika Nugraha</a>.</li>
-</ul>
-
-
-<br/>
-  <ul class="posts">
-    
-  </ul>
-
-
-</div>
-
+  {{ content }}
   
   <div class="footer">
   

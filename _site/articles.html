@@ -1,0 +1,8 @@
+	{% capture my_include %}{% include_relative articles/articles.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+<br/>
+  <ul class="posts">
+    {% for article in site.categories.articles %}
+      <li><span>{{ article.date | date_to_string }}</span> &raquo; <a href="{{ article.url }}">{{ article.title }}</a></li>
+    {% endfor %}
+  </ul>
