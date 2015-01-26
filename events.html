@@ -1,0 +1,8 @@
+  {% capture my_include %}{% include_relative events/events.md %}{% endcapture %}
+  {{ my_include | markdownify }}
+<br/>
+  <ul class="posts">
+    {% for event in site.categories.events %}
+      <li><span>{{ event.date | date_to_string }}</span> &raquo; <a href="{{ event.url }}">{{ event.title }}</a></li>
+    {% endfor %}
+  </ul>
