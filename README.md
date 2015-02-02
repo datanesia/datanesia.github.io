@@ -10,7 +10,6 @@ Feel free to contribute :
 
 How to contribute :
 - Fork the repository using git. If you are unfamiliar with Git, check out the greatly written introduction on git here : https://rogerdudler.github.io/git-guide/ & try out git online here https://try.github.io/
-- 
 - Article
 	- Have interesting articles to link ? Add them to the articles list in articles/articles.md
 	- Want to create an article post ? Just copy the template in articles/YYYY-MM-DD-post-title.md
