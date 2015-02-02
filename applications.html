@@ -1,8 +1,0 @@
-{% capture my_include %}{% include_relative applications/applications.md %}{% endcapture %}
-{{ my_include | markdownify }}
-<br/>
-  <ul class="posts">
-    {% for application in site.categories.applications %}
-      <li><span>{{ application.date | date_to_string }}</span> &raquo; <a href="{{ application.url }}">{{ application.title }}</a></li>
-    {% endfor %}
-  </ul>
