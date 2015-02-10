@@ -1,0 +1,8 @@
+{% capture my_include %}{% include_relative tools/innovations.md %}{% endcapture %}
+{{ my_include | markdownify }}
+<br/>
+  <ul class="posts">
+    {% for innovation in site.categories.innovations %}
+      <li><span>{{ innovation.date | date_to_string }}</span> &raquo; <a href="{{ innovation.url }}">{{ innovation.title }}</a></li>
+    {% endfor %}
+  </ul>

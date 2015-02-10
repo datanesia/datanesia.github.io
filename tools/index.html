@@ -1,0 +1,16 @@
+---
+layout: default
+title: Datanesia
+---
+
+<div id="home">
+
+{% capture my_include %}{% include_relative tools.md %}{% endcapture %}
+{{ my_include | markdownify }}
+<br/>
+  <ul class="posts">
+    {% for tool in site.categories.tools %}
+      <li><span>{{ tool.date | date_to_string }}</span> &raquo; <a href="{{ tool.url }}">{{ tool.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
