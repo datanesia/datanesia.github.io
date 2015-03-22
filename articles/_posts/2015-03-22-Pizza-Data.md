@@ -3,6 +3,8 @@ layout: post
 title: Pizza Data: Ngomongin Data Sambil Makan Pizza
 ---
 
+# Pizza Data: Ngomongin Data Sambil Makan Pizza
+
 Sebagai acara lanjutan dari Pizza Data bulan November 2014 lalu, pada tanggal 19 Maret 2015 telah diadakan meet up Pizza Data yang pertama, Slice #1: Working with Data. Sesuai dengan namanya, konsep dari acara Pizza Data ini adalah *ngobrolin* data, sambil makan pizza.
 
 Peserta dari meet up data pertama kita ini cukup banyak dan cukup beragam. Mahasiswa, *entrepeneur*, praktisi, dan lainnya. Peserta meet up data ini tidak melulu dari bidang IT, namun pesertanya banyak juga dari bidang lain sepert bidang kreatif dan juga kesehatan. Karena memang, tujuan dari meet up data dalam Pizza Data ini adalah menjadi wadah diskusi untuk orang-orang yang memiliki *concern* terhadap data, open data dan tentunya pembangunan Kota Bandung.
